@@ -1,5 +1,4 @@
 from dvc.stage import PipelineStage
-
 from cnnClassifier.components.data_ingestion import DataIngestion
 from cnnClassifier.config.configuration import (ConfigurationManager)
 from cnnClassifier import logger
